@@ -1,0 +1,7 @@
+.env
+.env*.local
+.sst
+.build
+node_modules
+coverage
+copilot

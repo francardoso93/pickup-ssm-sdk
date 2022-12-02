@@ -1,0 +1,11 @@
+*
+# allow these at the root
+!package-lock.json
+!package.json
+!pickup
+# but ignore everthing inside pickup
+pickup/*
+# but allow these
+!pickup/package.json
+!pickup/index.js
+!pickup/lib
